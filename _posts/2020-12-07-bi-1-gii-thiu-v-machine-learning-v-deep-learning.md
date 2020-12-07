@@ -20,7 +20,7 @@ Thực tế không phải như vậy, đúng như tên gọi của nó, ML là q
 
 Kết quả của quá trình “học” này sẽ tạo ra một ML model, nói một cách khác quá trình “học” của máy là quá trình tìm ra các model parameter, sao cho phù hợp (fit) với dữ liệu được đưa vào training. Với mỗi loại model khác nhau thì sẽ các các model parameter tương ứng với nó. Chi tiết về các model sẽ đến trong các bài viết tiếp theo, mọi người đón đọc nhé ! Các dữ liệu mới (unseen data) sau đó sẽ được đưa qua ML model để đưa ra dự đoán về kết quả thay cho việc sử dụng các điều kiện if else trong chương trình.
 
-![](/img/in-post/aml/model-parameter.png)
+![]({{ site.baseurl }}/img/in-post/aml/model-parameter.png)
 
 Vậy ML cần thiết khi nào ? khi chúng ta có quá nhiều dữ liệu với độ phức tạp cao, khó lòng mà có thể code trực tiếp các điều kiện để phân loại hay dự đoán kết quả, ví dụ như việc dự đoán giá một ngôi nhà, nó phụ thuộc vào rất nhiều yếu tố như diện tích sàn, số phòng ngủ, số nhà vệ sinh, mức độ an ninh của khu vực,… Khi đó thay vì chúng ta code trực tiếp các điều kiện, chúng ta sẽ đưa dữ liệu cho máy tính “học” và đưa ra ML model phù hợp với dữ liệu đã có.
 
