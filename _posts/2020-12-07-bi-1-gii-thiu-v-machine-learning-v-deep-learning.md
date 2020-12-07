@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Bài 1: Giới thiệu về Machine Learning và Deep Learning"
+subtitle: "Loạt bài học thuộc series AML"
+date: 2020-12-07
+author: "KyoHB"
+header-img: "img/post-bg-aml.jpg"
+tags: [AML]
+---
+## Định nghĩa về Machine Learning
+Có rất nhiều định nghĩa về Machine Learning (ML) nhưng định nghĩa sau đây sẽ mang lại cái nhìn tổng quát nhất:
+> “ Field of study that gives computers the ability to learn without being explicitly programmed ” - Arthur Samuel
+
+
+Đối với lập trình truyền thống, chúng ta thường sử dụng các câu lệnh if else để chương trình có thể xử lý các tình huống khác nhau, vậy AI hay ML cũng là một tá các if else để giúp máy tính đưa ra kết quả dự đoán cuối cùng ?
+
+![](/img/in-post/aml/ai-if-then-else.png)
+
+Thực tế không phải như vậy, đúng như tên gọi của nó, ML là quá trình máy tính “học” từ những dữ liệu đã có, những kết quả đã có trong quá khứ. Quá trình “học” này dựa trên các thuật toán ML và do đó việc “học” này có thể sử dụng cho mọi bài toán chứ không phải được lập trình trực tiếp và chỉ để phục vụ một bài toán duy nhất, đó chính là đoạn “ability to learn without being explicitly programmed” trong câu trích dẫn trên.
+
+Kết quả của quá trình “học” này sẽ tạo ra một ML model, nói một cách khác quá trình “học” của máy là quá trình tìm ra các model parameter, sao cho phù hợp (fit) với dữ liệu được đưa vào training. Với mỗi loại model khác nhau thì sẽ các các model parameter tương ứng với nó. Chi tiết về các model sẽ đến trong các bài viết tiếp theo, mọi người đón đọc nhé ! Các dữ liệu mới (unseen data) sau đó sẽ được đưa qua ML model để đưa ra dự đoán về kết quả thay cho việc sử dụng các điều kiện if else trong chương trình.
+
+![](/img/in-post/aml/model-parameter.png)
+
+Vậy ML cần thiết khi nào ? khi chúng ta có quá nhiều dữ liệu với độ phức tạp cao, khó lòng mà có thể code trực tiếp các điều kiện để phân loại hay dự đoán kết quả, ví dụ như việc dự đoán giá một ngôi nhà, nó phụ thuộc vào rất nhiều yếu tố như diện tích sàn, số phòng ngủ, số nhà vệ sinh, mức độ an ninh của khu vực,… Khi đó thay vì chúng ta code trực tiếp các điều kiện, chúng ta sẽ đưa dữ liệu cho máy tính “học” và đưa ra ML model phù hợp với dữ liệu đã có.
+
+## Phân loại ML
+Có 3 loại ML đó là:
+
+- Supervised Learning (Học giám sát): khi training, chúng ta sẽ đưa dữ liệu có nhãn (labeled data) cho máy học, máy sẽ “học” cách phân loại dữ liệu dựa vào các nhãn này.
+- Unsupervised Learning (Học không giám sát): khi training, chúng ta sẽ đưa dữ liêu không có nhãn (unlabeled data) cho máy học, khi đó máy sẽ tự tìm ra các đặc trưng (pattern) của các nhóm (cluster) của dữ liệu và phân loại dữ liệu vào các nhóm thích hợp.
+- Reinforcement Learning (Học củng cố): máy sẽ học thông qua hình thức phạt hoặc thưởng sau một loạt các quyết định của mình.
+
+Trong chuyên mục Aplied Machine Learning (AML) này, chúng ta sẽ đi sâu hơn về Supervised Learning và một phần nhỏ về Unsupervised Learning.
+
+Trong Supervised Learning chúng ta có 2 loại bài toán đó là:
+
+- Regression: nhãn (label) của data có giá trị là kiểu số (numeric type)
+- Classification: nhãn (label) của data có giá trị là kiểu phân loại (category type)
+
+Ví dụ về loại bài toán regression chúng ta có các bài toán như dự đoán giá nhà, dự đoán giá cho thuê nhà Airbnb, dự đoán lương,…
+
+Ví dụ về bài toán classification chúng ta có các bài toán như phân loại bệnh nhân bị tiểu đường (mắc bệnh và không mắc bệnh), phân loại gian lận (fraud) thẻ credit (gian lận và không gian lận), phân loại các loại xe (xe máy, xe ôtô, xe đạp)
+
+Trước khi giải quyết bài toán ML nào bạn cũng cần nhận thức rõ loại của bài toán của mình thuộc loại nào để có thể lựa chọn các model thích hợp.
+
+## Deep Learning
+Chúng ta đã điểm qua những khái niệm cơ bản về Machine Learning, vậy một thuật ngữ được sử dụng rất nhiều trong thời gian gần đây học sâu (Deep Learning) là gì ?
+
+> “ Deep Learning is a branch of AI, with the aim specified as moving machine learning closer to its original goals: AI ” - Deep Learning Essentials: Your hands-on guide to the fundamentals of deep learning and neural network modeling
+
+Deep Learning (DL) là một nhánh của ML, từ DL máy tính giờ có thể “học” được những loại dữ liệu phức tạp hơn như hình ảnh, giọng nói, văn bản,… DL được hình thành dựa trên cảm hứng từ bộ não con người, ở đó là một mạng lưới thần kinh (neural network) giúp con người xử lý các dữ liệu đầu vào và đưa ra quyết định một cách chính xác. DL giúp khắc phục những điểm yếu của ML khi phải đối diện với những bài toán có số lượng dữ liệu khổng lồ với độ phức tạp cao và sâu. Chúng ta sẽ tìm hiểu kỹ hơn về DL ở trong chuyên mục DL nhé !
+
