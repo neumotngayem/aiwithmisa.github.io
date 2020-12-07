@@ -14,7 +14,7 @@ Có rất nhiều định nghĩa về Machine Learning (ML) nhưng định nghĩ
 
 Đối với lập trình truyền thống, chúng ta thường sử dụng các câu lệnh if else để chương trình có thể xử lý các tình huống khác nhau, vậy AI hay ML cũng là một tá các if else để giúp máy tính đưa ra kết quả dự đoán cuối cùng ?
 
-![](./img/in-post/aml/ai-if-then-else.png)
+![]({{ site.baseurl }}/img/in-post/aml/ai-if-then-else.png)
 
 Thực tế không phải như vậy, đúng như tên gọi của nó, ML là quá trình máy tính “học” từ những dữ liệu đã có, những kết quả đã có trong quá khứ. Quá trình “học” này dựa trên các thuật toán ML và do đó việc “học” này có thể sử dụng cho mọi bài toán chứ không phải được lập trình trực tiếp và chỉ để phục vụ một bài toán duy nhất, đó chính là đoạn “ability to learn without being explicitly programmed” trong câu trích dẫn trên.
 
