@@ -1694,3 +1694,9 @@ img::-moz-selection {
 .no-scroll {
   overflow-y: hidden;
 }
+.img + br + em {
+    font-style: normal;
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+}
