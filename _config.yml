@@ -5,8 +5,8 @@ header-img: img/home-bg.jpg
 email: neumotngayem@gmail.com
 description: "Learn AI with Misa"
 keyword: "AI, Deep Learning, Machine Learning, NLP, Computer Vision, Image Processing"
-url: "neumotngayem.github.io"              # your host, for absolute URL
-baseurl: "/aiwithmisa"                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "aiwithmisa.com"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
 future: true
