@@ -1,7 +1,7 @@
 Xin chào mọi người, tôi là Trần Nho Hoài Bắc !
 <img src="{{ site.baseurl }}/img/about/author.jpg" alt="Author" width="159" style='float: right'/>
 
-Tôi là một cựu sinh viên đại học FPT và hiện nay đang theo học thạc sĩ chuyên ngành AI tại trường đại học Asia Pacific University - Malaysia.
+Tôi là một cựu sinh viên Đại học FPT và hiện nay đang theo học thạc sĩ chuyên ngành AI tại trường Đại học Asia Pacific University - Malaysia.
 Với mong muốn chia sẽ những kiến thức đã học trong lĩnh vực trí tuệ nhân tạo, một lĩnh vực đang nhận được rất nhiều sự quan tâm của cộng đồng trong những năm qua,
 tôi đã lập ra Blog này.
 
