@@ -6,3 +6,8 @@
 .formula{
   text-align: center;
 }
+
+@font-face {
+	font-family: "khand";
+	src: url("../fonts/Khand-Bold.ttf");
+}
